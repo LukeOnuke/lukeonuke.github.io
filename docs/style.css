@@ -1,0 +1,33 @@
+
+#maindiv{
+	font-family: 'Open Sans', sans-serif;
+	padding : 1%;
+	margin-top : 0.0001%;
+	margin-left : 10%;
+	margin-right : 10%;
+	background-color : #ffffff;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#h1{
+	text-align: center;
+}
+
+#paragraf{
+	
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited {
+  color: #00fffb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00b5b2;
+  text-decoration: none;
+}
