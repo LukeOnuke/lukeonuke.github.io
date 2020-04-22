@@ -211,3 +211,8 @@ a:active {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   }
+  
+#emdoc{
+	width:200%;
+	height:400%;
+}
