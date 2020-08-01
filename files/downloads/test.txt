@@ -1,5 +1,0 @@
-As you can see your http protocol test works
-Test
-Test
-Test
-<------------------------------------------>

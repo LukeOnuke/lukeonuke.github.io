@@ -1,58 +1,125 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<!-- METADATA -->
+	<head>
 		<!-- Rendering non English characters -->
 		<meta charset="UTF-8"/>
 		<!-- Description is a text that shortly explainst the content on the web page, it shows up under the title after for ex. google search-->
-		<meta name="description" content="LukeOnuke's website with tutorials for c# , programs he made and other c# releated stuff"/>
+		<meta name="description" content=""/>
 		<!-- Upload website on a host (ex. github.com) and visit https://seositecheckup.com/, it will display the keywords as well as all the errors you made -->
-		<meta name="keywords" content="LukeOnuke c# tutorials opensource"/>
+		<meta name="keywords" content=""/>
 		<!-- Person who made the website -->
-		<meta name="author" content="Luka Kresoja"/>
+		<meta name="author" content="Petar Kresoja"/>
 		<!-- Responsive design viewport set to 100% of device's screen-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<!-- Page title -->
 		<title>Home</title>
-	<!-- ======== -->
-	<link rel="stylesheet" type="text/css" href="css\style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/2290c60724.js" crossorigin="anonymous"></script>
-<head>
-
-<body>
-	<ul id="mainMenuContainer">
-		<li id="menuitem" class="active"><a href="index.html">Home</a></li>
-		<li id="menuitem"><a href="projects.html">Projects</a></li>
-		<li id="menuitem"><a href="docs.html">Docs</a></li>
-		<li id="menuitem"><a href="contact.html">Contact</a></li>
-	</ul>
-
-	<div id="gradient">
-		<h1 id="mainTitle">Lukeonuke</h1>
-	</div>
-
-	<div id="mainDiv">
-		<h2>Intruduction</h2>
-		<p id="text">I am a highschooler interested in all things computer. Programing, computer architecture, history of computing, data science. You name it , if its computer related there is a good chance i would like to know about it</p>
-		<h2>My goal</h2>
-		<p id="text">Learn java and fill in my knolage of coding. Finish higschool , enlist in some good collage. And make opensource software that is free for everyone to enjoy</p>
-		<p id="text"> Currently learning java</p>
-		
-		<h2>The things im doing rn</h2>
-		<p id="text"> Learning java since c# isnt multiplatform (easely) </p>
-		<p id="imp">C# can be multiplatform , just it is very difficult to get it working everywhere. But java is very simple to get multiplatform</p>
-		<p id="imp2">BoiMan</p>
-
-	</div>
+		<!-- Favicon -->
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<!-- Custom style -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bulma.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/2290c60724.js" crossorigin="anonymous"></script>
+	</head>
 	
-	<div id="credits">
-		<p id="creditsText">Made by : <a href="https://github.com/LukeOnuke">LukeOnuke</a> | <a href="https://github.com/LukeOnuke" id="social"><i class="fab fa-github"></i></a></p>  <p id="creditsText"> <a href="https://twitter.com/LukeOnuke" id="social"><i class="fab fa-twitter"></i> </a> </p>
+	<body class="body">
+		<header>
+		<nav class="navbar is-black">
+			<div class="navbar-brand" id="logo" href="contact.html">
+				Luke'oNuke
+			</div>
+			
+			<a class="navbar-link is-arrowless" href="index.html">
+				Home
+			</a>
+			
+			<div class="navbar-item has-dropdown is-hoverable">
+			
+				<a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+					Docs
+				</a>
+				
+				<div class="navbar-dropdown">
+					<a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+						Overview
+					</a>
+					<hr class="navbar-divider">
+					<a class="navbar-item">
+						Version 2.0
+					</a>
+				</div>
+				
+			</div>
+			
+			<div class="navbar-item has-dropdown is-hoverable">
+			
+				<a class="navbar-link">
+					Projects
+				</a>
+				
+				<div class="navbar-dropdown">
+					<a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+						AdminTools
+					</a>
+					<hr class="navbar-divider">
+					<a class="navbar-item">
+						Version 2.0
+					</a>
+				</div>
+				
+			</div>
+			
+				<a class="navbar-link is-arrowless" href="contact.html">
+					Contact
+				</a>
+			</nav>
 		
-	</div>
-	
-</body>
-
-
+			<div id="titlePane">
+				Luke'oNuke
+			</div>
+		
+			<div id="devider"></div>
+		</header>
+		<div id="contentContainer">
+			<div class="columns">
+				<div class="column">
+					<h1 class="title">Who am i?</h1>
+					<p>I am Luke, a highschooler that loves to code and mess arround with computers.</p>
+				</div>
+				<div class="column">
+					<h1 class="title">What do i do?</h1>
+					<p>A lot of things, but mainly code in java 8.</p>
+				</div>
+				<div class="column">
+					<h1 class="title">Why do i do?</h1>
+					<p>Because its fun.</p>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div id="devider"></div>
+			<div id="contentContainer">
+				<div class="content has-text-centered">
+					<a id="credits" href="https://github.com/LukeOnuke"><i id="credits" class="fab fa-github fa-2x">  </i></a>
+					<a id="credits" href="https://twitter.com/LukeOnuke"><i id="credits" class="fab fa-twitter fa-2x">  </i></a>
+					<a id="credits" href="https://github.com"><i id="credits" class="fab fa-youtube fa-2x">  </i></a>
+					<a id="credits" href="legal.html"><i class="fas fa-gavel fa-2x"></i>  </a>
+					<br/>
+					<span>Copyright &copy;
+						<script type="text/javascript">
+							document.write(new Date().getFullYear());
+						</script>
+						<a href="https://github.com">Lukeonuke</a> 
+					</span>
+					<br/>
+					<span>Photo by <a href="https://unsplash.com/@nathananderson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nathan Anderson</a> on <a href="https://unsplash.com/s/photos/sky-nature?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+				</div>
+			</div>
+			</div>
+		</footer>
+		
+				<!-- Custom script -->
+		<script src="js/main.js"></script>
+	</body>
 </html>
