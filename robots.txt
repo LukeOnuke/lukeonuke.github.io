@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /admin/
+
+# Group 2
+User-agent: *
+Allow: /domaci/
