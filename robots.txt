@@ -1,10 +1,2 @@
 User-agent: *
 Disallow: /admin/
-
-# Group 2
-User-agent: *
-Disallow: /domaci/
-
-# Group 2
-User-agent: *
-Disallow: /skola/
