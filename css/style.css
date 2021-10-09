@@ -137,9 +137,8 @@ footer a{
 }
 
 .showcase > div{
-  border-color: var(--light-blue);
-  border-width: 1px;
-  border-radius: 1vw;
+  border: var(--light-blue);
+  border-width: 0px 0px 1px 0px;
   border-style: solid;
   padding: 1vw;
   margin: 10px;

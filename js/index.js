@@ -94,7 +94,7 @@ next();
         el.innerHTML += (
         "<div class=''>"+
         "  <h1><a href='" + repo.link + "'>" + repo.owner + "/" + repo.repo + "</a></h1>" +
-        "  <hr>"+
+
         "  <p>" + repo.description + "</p>"+
         "</div>"
         );
